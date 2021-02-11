@@ -1,5 +1,6 @@
 #include "strutil.h"
 #include <string>
+#include <stdlib.h>
 
 namespace util
 {
