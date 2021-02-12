@@ -7,6 +7,12 @@
 namespace util
 {
     template <typename T>
+    bool inRange(T min, T val, T max)
+    {
+        return min <= val && val <= max;
+    }
+
+    template <typename T>
     bool isDec(T val)
     {
         return inRange<T>('0', val, '9');
