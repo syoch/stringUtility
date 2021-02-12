@@ -1,6 +1,6 @@
 #pragma once
-#ifndef ASSMEMBLER_H
-#define ASSMEMBLER_H
+#ifndef SYOCH_STRUTIL_H
+#define SYOCH_STRUTIL_H
 
 #include <string>
 
