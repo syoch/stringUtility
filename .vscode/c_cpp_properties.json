@@ -9,7 +9,7 @@
             "compilerPath": "/home/syoch/.local/bin/clang",
             "cStandard": "c11",
             "cppStandard": "c++14",
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+            "compileCommands": "${workspaceFolder}/builddir/compile_commands.json"
         }
     ],
     "version": 4
