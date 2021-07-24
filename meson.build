@@ -8,7 +8,7 @@ install_headers('util.h')
 
 import('pkgconfig').generate(
   libraries : shared_library(
-    'util',
+    'tinyutil',
     ['util.cpp'],
     include_directories : include_directories('.'),
     dependencies : glib_dep,
