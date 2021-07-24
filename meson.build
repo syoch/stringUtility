@@ -7,7 +7,7 @@ glib_dep = dependency('glib-2.0')
 install_headers('tinyutil.h')
 
 import('pkgconfig').generate(
-  libraries : shared_library(
+  libraries : static_library(
     'tinyutil',
     ['util.cpp'],
     include_directories : include_directories('.'),
