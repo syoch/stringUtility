@@ -4,7 +4,7 @@ project('tiny-util', 'cpp',
 
 glib_dep = dependency('glib-2.0')
 
-install_headers('util.h')
+install_headers('tinyutil.h')
 
 import('pkgconfig').generate(
   libraries : shared_library(
