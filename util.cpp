@@ -1,4 +1,4 @@
-#include "util.h"
+#include "tinyutil.h"
 
 #include <stdlib.h>
 
